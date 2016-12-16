@@ -126,8 +126,12 @@ Character JSON Information:
   "sprites": [String],
   "trust": {
     "<String character>": Float
-  }
-  "strength": Float
-  "luck": Float
+  },
+  "frequent-locations": [<String location>],
+  "wakes-up": Integer,
+  "sleeps": Integer,
+  "strength": Float,
+  "intelligence": Float,
+  "luck": Boolean
 }
 
